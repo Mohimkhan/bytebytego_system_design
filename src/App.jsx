@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Registration from "./pages/Registration";
+import ZeroToMillion from "./zero_to_million";
 
 const App = () => {
   return (
@@ -11,12 +11,8 @@ const App = () => {
         element={<Home />}
       ></Route>
       <Route
-        path="/login"
-        element={<Login />}
-      ></Route>
-      <Route
-        path="/register"
-        element={<Registration />}
+        path="/zero_to_million"
+        element={<ZeroToMillion />}
       ></Route>
     </Routes>
   );
