@@ -3,6 +3,10 @@ const links = [
     name: "Zero to Million",
     path: "/zero_to_million",
   },
+  {
+    name: "Back Of Envelope",
+    path: "/back_of_envelope",
+  },
 ];
 
 const Home = () => {
@@ -13,7 +17,7 @@ const Home = () => {
       {links.map((link) => {
         return (
           <a
-            className="text-blue-600 underline"
+            className="block text-blue-600 underline"
             href={link.path}
             key={link.path}
           >
