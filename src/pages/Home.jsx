@@ -7,6 +7,10 @@ const links = [
     name: "Back Of Envelope",
     path: "/back_of_envelope",
   },
+  {
+    name: "Design Rate Limiter",
+    path: "/design_rate_limiter",
+  },
 ];
 
 const Home = () => {
