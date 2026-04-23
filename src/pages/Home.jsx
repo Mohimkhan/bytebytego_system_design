@@ -11,6 +11,10 @@ const links = [
     name: "Design Rate Limiter",
     path: "/design_rate_limiter",
   },
+  {
+    name: "Design Consistent Hashing",
+    path: "/design_consistent_hashing",
+  },
 ];
 
 const Home = () => {
