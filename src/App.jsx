@@ -4,6 +4,7 @@ import ZeroToMillion from "./zero_to_million";
 import BackOfEnvelope from "./back_of_envelope";
 import DesignRateLimiter from "./design_rate_limiter";
 import DesignConsistentHashing from "./design_consistent_hashing";
+import DesignKeyValuePair from "./design_key_value_pair";
 
 const App = () => {
   return (
@@ -27,6 +28,10 @@ const App = () => {
       <Route
         path="/design_consistent_hashing"
         element={<DesignConsistentHashing />}
+      ></Route>
+      <Route
+        path="/design_key_value_pair"
+        element={<DesignKeyValuePair />}
       ></Route>
     </Routes>
   );

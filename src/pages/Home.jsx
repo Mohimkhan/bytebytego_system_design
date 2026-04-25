@@ -15,6 +15,10 @@ const links = [
     name: "Design Consistent Hashing",
     path: "/design_consistent_hashing",
   },
+  {
+    name: "Design Key Value Pair",
+    path: "/design_key_value_pair",
+  },
 ];
 
 const Home = () => {
