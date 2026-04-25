@@ -19,6 +19,10 @@ const links = [
     name: "Design Key Value Pair",
     path: "/design_key_value_pair",
   },
+  {
+    name: "Design Unique Id Generator",
+    path: "/design_unique_id_generator",
+  },
 ];
 
 const Home = () => {
