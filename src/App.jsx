@@ -6,6 +6,7 @@ import DesignRateLimiter from "./design_rate_limiter";
 import DesignConsistentHashing from "./design_consistent_hashing";
 import DesignKeyValuePair from "./design_key_value_pair";
 import DesignUniqueIdGenerator from "./design_unique_id_generator";
+import DesignUrlShortener from "./design_url_shortener";
 
 const App = () => {
   return (
@@ -37,6 +38,10 @@ const App = () => {
       <Route
         path="/design_unique_id_generator"
         element={<DesignUniqueIdGenerator />}
+      ></Route>
+      <Route
+        path="/design_url_shortener"
+        element={<DesignUrlShortener />}
       ></Route>
     </Routes>
   );

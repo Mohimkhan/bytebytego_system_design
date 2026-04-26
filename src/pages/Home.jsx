@@ -23,6 +23,10 @@ const links = [
     name: "Design Unique Id Generator",
     path: "/design_unique_id_generator",
   },
+  {
+    name: "Design Url Shortener",
+    path: "/design_url_shortener",
+  },
 ];
 
 const Home = () => {
