@@ -27,6 +27,10 @@ const links = [
     name: "Design Url Shortener",
     path: "/design_url_shortener",
   },
+  {
+    name: "Design Web Crawler",
+    path: "/design_web_crawler",
+  },
 ];
 
 const Home = () => {
