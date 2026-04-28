@@ -7,6 +7,7 @@ import DesignConsistentHashing from "./design_consistent_hashing";
 import DesignKeyValuePair from "./design_key_value_pair";
 import DesignUniqueIdGenerator from "./design_unique_id_generator";
 import DesignUrlShortener from "./design_url_shortener";
+import DesignWebCrawler from "./design_web_crawler";
 
 const App = () => {
   return (
@@ -42,6 +43,10 @@ const App = () => {
       <Route
         path="/design_url_shortener"
         element={<DesignUrlShortener />}
+      ></Route>
+      <Route
+        path="/design_web_crawler"
+        element={<DesignWebCrawler />}
       ></Route>
     </Routes>
   );
