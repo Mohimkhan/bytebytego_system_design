@@ -31,6 +31,10 @@ const links = [
     name: "Design Web Crawler",
     path: "/design_web_crawler",
   },
+  {
+    name: "Design Notification System",
+    path: "/design_notification_system",
+  },
 ];
 
 const Home = () => {

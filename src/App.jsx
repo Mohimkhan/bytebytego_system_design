@@ -8,6 +8,7 @@ import DesignKeyValuePair from "./design_key_value_pair";
 import DesignUniqueIdGenerator from "./design_unique_id_generator";
 import DesignUrlShortener from "./design_url_shortener";
 import DesignWebCrawler from "./design_web_crawler";
+import DesignNotificationSystem from "./design_a_notification_system";
 
 const App = () => {
   return (
@@ -47,6 +48,10 @@ const App = () => {
       <Route
         path="/design_web_crawler"
         element={<DesignWebCrawler />}
+      ></Route>
+      <Route
+        path="/design_notification_system"
+        element={<DesignNotificationSystem />}
       ></Route>
     </Routes>
   );
