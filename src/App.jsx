@@ -9,6 +9,7 @@ import DesignUniqueIdGenerator from "./design_unique_id_generator";
 import DesignUrlShortener from "./design_url_shortener";
 import DesignWebCrawler from "./design_web_crawler";
 import DesignNotificationSystem from "./design_a_notification_system";
+import DesignNewsFeedSystem from "./design_a_news_feed_system";
 
 const App = () => {
   return (
@@ -52,6 +53,10 @@ const App = () => {
       <Route
         path="/design_notification_system"
         element={<DesignNotificationSystem />}
+      ></Route>
+      <Route
+        path="/design_news_feed_system"
+        element={<DesignNewsFeedSystem />}
       ></Route>
     </Routes>
   );

@@ -35,6 +35,10 @@ const links = [
     name: "Design Notification System",
     path: "/design_notification_system",
   },
+  {
+    name: "Design News Feed System",
+    path: "/design_news_feed_system",
+  },
 ];
 
 const Home = () => {
