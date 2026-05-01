@@ -39,6 +39,10 @@ const links = [
     name: "Design News Feed System",
     path: "/design_news_feed_system",
   },
+  {
+    name: "Design Chat System",
+    path: "/design_chat_system",
+  },
 ];
 
 const Home = () => {

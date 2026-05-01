@@ -10,6 +10,7 @@ import DesignUrlShortener from "./design_url_shortener";
 import DesignWebCrawler from "./design_web_crawler";
 import DesignNotificationSystem from "./design_a_notification_system";
 import DesignNewsFeedSystem from "./design_a_news_feed_system";
+import DesignChatSystem from "./design_a_chat_system";
 
 const App = () => {
   return (
@@ -57,6 +58,10 @@ const App = () => {
       <Route
         path="/design_news_feed_system"
         element={<DesignNewsFeedSystem />}
+      ></Route>
+      <Route
+        path="/design_chat_system"
+        element={<DesignChatSystem />}
       ></Route>
     </Routes>
   );
