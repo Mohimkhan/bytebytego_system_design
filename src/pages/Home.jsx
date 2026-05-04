@@ -47,6 +47,10 @@ const links = [
     name: "Design Search Autocomplete System",
     path: "/design_search_autocomplete_system",
   },
+  {
+    name: "Design Youtube",
+    path: "/design_youtube",
+  },
 ];
 
 const Home = () => {

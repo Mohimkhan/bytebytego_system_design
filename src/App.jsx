@@ -12,6 +12,7 @@ import DesignNotificationSystem from "./design_a_notification_system";
 import DesignNewsFeedSystem from "./design_a_news_feed_system";
 import DesignChatSystem from "./design_a_chat_system";
 import DesignSearchAutocompleteSystem from "./design_a_search_autocomplete_system";
+import DesignYoutube from "./design_youtube";
 
 const App = () => {
   return (
@@ -67,6 +68,10 @@ const App = () => {
       <Route
         path="/design_search_autocomplete_system"
         element={<DesignSearchAutocompleteSystem />}
+      ></Route>
+      <Route
+        path="/design_youtube"
+        element={<DesignYoutube />}
       ></Route>
     </Routes>
   );
