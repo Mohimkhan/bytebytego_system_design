@@ -43,6 +43,10 @@ const links = [
     name: "Design Chat System",
     path: "/design_chat_system",
   },
+  {
+    name: "Design Search Autocomplete System",
+    path: "/design_search_autocomplete_system",
+  },
 ];
 
 const Home = () => {
