@@ -14,6 +14,7 @@ import DesignChatSystem from "./design_a_chat_system";
 import DesignSearchAutocompleteSystem from "./design_a_search_autocomplete_system";
 import DesignYoutube from "./design_youtube";
 import DesignGoogleDrive from "./design_google_drive";
+import DesignProximityService from "./design_proximity_service";
 
 const App = () => {
   return (
@@ -77,6 +78,10 @@ const App = () => {
       <Route
         path="/design_google_drive"
         element={<DesignGoogleDrive />}
+      ></Route>
+      <Route
+        path="/design_proximity_service"
+        element={<DesignProximityService />}
       ></Route>
     </Routes>
   );

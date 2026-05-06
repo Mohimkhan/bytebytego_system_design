@@ -55,6 +55,10 @@ const links = [
     name: "Design Google Drive",
     path: "/design_google_drive",
   },
+  {
+    name: "Design Proximity Service",
+    path: "/design_proximity_service",
+  },
 ];
 
 const Home = () => {
