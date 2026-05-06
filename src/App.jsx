@@ -13,6 +13,7 @@ import DesignNewsFeedSystem from "./design_a_news_feed_system";
 import DesignChatSystem from "./design_a_chat_system";
 import DesignSearchAutocompleteSystem from "./design_a_search_autocomplete_system";
 import DesignYoutube from "./design_youtube";
+import DesignGoogleDrive from "./design_google_drive";
 
 const App = () => {
   return (
@@ -72,6 +73,10 @@ const App = () => {
       <Route
         path="/design_youtube"
         element={<DesignYoutube />}
+      ></Route>
+      <Route
+        path="/design_google_drive"
+        element={<DesignGoogleDrive />}
       ></Route>
     </Routes>
   );

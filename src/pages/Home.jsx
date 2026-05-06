@@ -51,6 +51,10 @@ const links = [
     name: "Design Youtube",
     path: "/design_youtube",
   },
+  {
+    name: "Design Google Drive",
+    path: "/design_google_drive",
+  },
 ];
 
 const Home = () => {
