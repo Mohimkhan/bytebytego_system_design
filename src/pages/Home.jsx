@@ -59,6 +59,10 @@ const links = [
     name: "Design Proximity Service",
     path: "/design_proximity_service",
   },
+  {
+    name: "Design Nearby Friends",
+    path: "/design_nearby_friends",
+  },
 ];
 
 const Home = () => {
