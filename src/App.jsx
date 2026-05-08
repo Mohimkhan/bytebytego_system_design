@@ -16,6 +16,7 @@ import DesignYoutube from "./design_youtube";
 import DesignGoogleDrive from "./design_google_drive";
 import DesignProximityService from "./design_proximity_service";
 import DesignNearbyFriends from "./design_nearby_friends";
+import DesignGoogleMaps from "./design_google_maps";
 
 const App = () => {
   return (
@@ -87,6 +88,10 @@ const App = () => {
       <Route
         path="/design_nearby_friends"
         element={<DesignNearbyFriends />}
+      ></Route>
+      <Route
+        path="/design_google_maps"
+        element={<DesignGoogleMaps />}
       ></Route>
     </Routes>
   );

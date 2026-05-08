@@ -63,24 +63,33 @@ const links = [
     name: "Design Nearby Friends",
     path: "/design_nearby_friends",
   },
+  {
+    name: "Design Google Maps",
+    path: "/design_google_maps",
+  },
 ];
 
 const Home = () => {
   return (
     <div>
-      <p className="text-red-600 font-bold">Hello React</p>
-
-      {links.map((link) => {
-        return (
-          <a
-            className="block text-blue-600 underline"
-            href={link.path}
-            key={link.path}
-          >
-            {link.name}
-          </a>
-        );
-      })}
+      <p className="text-red-600 font-bold text-center text-3xl mb-5">
+        Byte Byte Go
+      </p>
+      <ol className="ml-5 border px-9 py-3">
+        {links.map((link) => {
+          return (
+            <li className="list-decimal">
+              <a
+                className="block text-blue-600 underline"
+                href={link.path}
+                key={link.path}
+              >
+                {link.name}
+              </a>
+            </li>
+          );
+        })}
+      </ol>
     </div>
   );
 };
