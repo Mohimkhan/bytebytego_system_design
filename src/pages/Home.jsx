@@ -71,6 +71,10 @@ const links = [
     name: "Design Distributed Message Queue",
     path: "/design_distributed_message_queue",
   },
+  {
+    name: "Design Metrics Monitoring and Alerting System",
+    path: "/design_metrics_monitoring_and_alerting_system",
+  }
 ];
 
 const Home = () => {
