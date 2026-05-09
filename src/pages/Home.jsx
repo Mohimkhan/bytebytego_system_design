@@ -79,6 +79,10 @@ const links = [
     name: "Design Ad Click Event Aggregation",
     path: "/design_ad_click_event_aggregation",
   },
+  {
+    name: "Design Hotel Reservation System",
+    path: "/design_hotel_reservation_system",
+  },
 ];
 
 const Home = () => {
