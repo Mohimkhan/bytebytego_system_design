@@ -19,6 +19,7 @@ import DesignNearbyFriends from "./design_nearby_friends";
 import DesignGoogleMaps from "./design_google_maps";
 import DesignDistributedMessageQueue from "./design_distributed_message_queue";
 import DesignMetricsMonitoringAndAlertingSystem from "./design_metrics_monitoring_and_alerting_system";
+import DesignAdClickEventAggregation from "./design_ad_click_event_aggregation";
 
 const App = () => {
   return (
@@ -102,6 +103,10 @@ const App = () => {
       <Route
         path="/design_metrics_monitoring_and_alerting_system"
         element={<DesignMetricsMonitoringAndAlertingSystem />}
+      ></Route>
+      <Route
+        path="/design_ad_click_event_aggregation"
+        element={<DesignAdClickEventAggregation />}
       ></Route>
     </Routes>
   );

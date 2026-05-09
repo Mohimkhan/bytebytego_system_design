@@ -74,7 +74,11 @@ const links = [
   {
     name: "Design Metrics Monitoring and Alerting System",
     path: "/design_metrics_monitoring_and_alerting_system",
-  }
+  },
+  {
+    name: "Design Ad Click Event Aggregation",
+    path: "/design_ad_click_event_aggregation",
+  },
 ];
 
 const Home = () => {
