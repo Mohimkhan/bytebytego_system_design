@@ -67,6 +67,10 @@ const links = [
     name: "Design Google Maps",
     path: "/design_google_maps",
   },
+  {
+    name: "Design Distributed Message Queue",
+    path: "/design_distributed_message_queue",
+  },
 ];
 
 const Home = () => {
