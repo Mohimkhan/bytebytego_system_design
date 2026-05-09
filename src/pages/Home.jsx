@@ -87,6 +87,10 @@ const links = [
     name: "Design Distributed Email Service",
     path: "/design_distributed_email_service",
   },
+  {
+    name: "Design S3-like Object Storage",
+    path: "/design_s3_like_object_storage",
+  },
 ];
 
 const Home = () => {
