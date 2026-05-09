@@ -83,6 +83,10 @@ const links = [
     name: "Design Hotel Reservation System",
     path: "/design_hotel_reservation_system",
   },
+  {
+    name: "Design Distributed Email Service",
+    path: "/design_distributed_email_service",
+  },
 ];
 
 const Home = () => {
