@@ -91,6 +91,10 @@ const links = [
     name: "Design S3-like Object Storage",
     path: "/design_s3_like_object_storage",
   },
+  {
+    name: "Design Real-time Gaming Leaderboard",
+    path: "/design_real_time_gaming_leaderboard",
+  },
 ];
 
 const Home = () => {

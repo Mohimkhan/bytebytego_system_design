@@ -23,6 +23,7 @@ import DesignAdClickEventAggregation from "./design_ad_click_event_aggregation";
 import DesignHotelReservationSystem from "./design_hotel_reservation_system";
 import DesignDistributedEmailService from "./design_distributed_email_service";
 import DesignS3LikeObjectStorage from "./design_s3_like_object_storage";
+import DesignRealTimeGamingLeaderboard from "./design_real_time_gaming_leaderboard";
 
 const App = () => {
   return (
@@ -122,6 +123,10 @@ const App = () => {
       <Route
         path="/design_s3_like_object_storage"
         element={<DesignS3LikeObjectStorage />}
+      ></Route>
+      <Route
+        path="/design_real_time_gaming_leaderboard"
+        element={<DesignRealTimeGamingLeaderboard />}
       ></Route>
     </Routes>
   );
